@@ -1,161 +1,8 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Fiama - Flower Shop eCommerce HTML Template</title>
-    <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Place favicon.png in the root directory -->
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
-    <!-- Font Icons css -->
-    <link rel="stylesheet" href="css/font-icons.css">
-    <!-- plugins css -->
-    <link rel="stylesheet" href="css/plugins.css">
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-
-<body>
-    <!--[if lte IE 9]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
-
-    <!-- Add your site or application content here -->
-
-    <!-- Body main wrapper start -->
-    <div class="body-wrapper">
-
-        <!-- HEADER AREA START (header-3) -->
-        <header class="ltn__header-area ltn__header-3 section-bg-6">
-            <!-- ltn__header-middle-area start -->
-            <div class="ltn__header-middle-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="site-logo">
-                                <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
-                            </div>
-                        </div>
-                        <div class="col header-contact-serarch-column d-none d-xl-block">
-                            <div class="header-contact-search">
-                                <!-- header-feature-item -->
-                                <div class="header-feature-item">
-                                    <div class="header-feature-icon">
-                                        <i class="icon-phone"></i>
-                                    </div>
-                                    <div class="header-feature-info">
-                                        <h6>Phone</h6>
-                                        <p><a href="tel:0123456789">+0123-456-789</a></p>
-                                    </div>
-                                </div>
-                                <!-- header-search-2 -->
-                                <div class="header-search-2">
-                                    <form id="#123" method="get" action="#">
-                                        <input type="text" name="search" value="" placeholder="Search here..." />
-                                        <button type="submit">
-                                        <span><i class="icon-magnifier"></i></span>
-                                    </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="ltn__header-options">
-                                <ul>
-                                    <li class="d-none">
-                                        <!-- ltn__currency-menu -->
-                                        <div class="ltn__drop-menu ltn__currency-menu">
-                                            <ul>
-                                                <li><a href="#" class="dropdown-toggle"><span class="active-currency">USD</span></a>
-                                                    <ul>
-                                                        <li><a href="login.html">USD - US Dollar</a></li>
-                                                        <li><a href="wishlist.html">CAD - Canada Dollar</a></li>
-                                                        <li><a href="register.html">EUR - Euro</a></li>
-                                                        <li><a href="account.html">GBP - British Pound</a></li>
-                                                        <li><a href="wishlist.html">INR - Indian Rupee</a></li>
-                                                        <li><a href="wishlist.html">BDT - Bangladesh Taka</a></li>
-                                                        <li><a href="wishlist.html">JPY - Japan Yen</a></li>
-                                                        <li><a href="wishlist.html">AUD - Australian Dollar</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="d-none">
-                                        <!-- header-search-1 -->
-                                        <div class="header-search-wrap">
-                                            <div class="header-search-1">
-                                                <div class="search-icon">
-                                                    <i class="icon-magnifier  for-search-show"></i>
-                                                    <i class="icon-magnifier-remove  for-search-close"></i>
-                                                </div>
-                                            </div>
-                                            <div class="header-search-1-form">
-                                                <form id="#" method="get" action="#">
-                                                    <input type="text" name="search" value="" placeholder="Search here..." />
-                                                    <button type="submit">
-                                                    <span><i class="icon-magnifier"></i></span>
-                                                </button>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="d-none">
-                                        <!-- user-menu -->
-                                        <div class="ltn__drop-menu user-menu">
-                                            <ul>
-                                                <li>
-                                                    <a href="#"><i class="icon-user"></i></a>
-                                                    <ul>
-                                                        <li><a href="login.html">Sign in</a></li>
-                                                        <li><a href="register.html">Register</a></li>
-                                                        <li><a href="account.html">My Account</a></li>
-                                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <!-- mini-cart 2 -->
-                                        <div class="mini-cart-icon mini-cart-icon-2">
-                                            <a href="#ltn__utilize-cart-menu" class="ltn__utilize-toggle">
-                                            <span class="mini-cart-icon">
-                                                <i class="icon-handbag"></i>
-                                                <sup>2</sup>
-                                            </span>
-                                            <h6><span>Your Cart</span> <span class="ltn__secondary-color">$89.25</span></h6>
-                                        </a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <!-- Mobile Menu Button -->
-                                        <div class="mobile-menu-toggle d-lg-none">
-                                            <a href="#ltn__utilize-mobile-menu" class="ltn__utilize-toggle">
-                                            <svg viewBox="0 0 800 600">
-                                                <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
-                                                <path d="M300,320 L540,320" id="middle"></path>
-                                                <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
-                                            </svg>
-                                        </a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<?php include './includes/header.php';?>
             <!-- ltn__header-middle-area end -->
 
             <!-- header-bottom-area start -->
-            <div class="header-bottom-area ltn__border-top ltn__header-sticky  ltn__sticky-bg-white ltn__primary-bg---- menu-color-white---- d-none d-lg-block">
+            <!-- <div class="header-bottom-area ltn__border-top ltn__header-sticky  ltn__sticky-bg-white ltn__primary-bg---- menu-color-white---- d-none d-lg-block">
                 <div class="container">
                     <div class="row">
                         <div class="col header-menu-column justify-content-center">
@@ -259,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- header-bottom-area end -->
         </header>
         <!-- HEADER AREA END -->
@@ -445,11 +292,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="ltn__breadcrumb-inner text-center">
-                            <h1 class="ltn__page-title">About Us</h1>
+                            <h1 class="ltn__page-title">Cart</h1>
                             <div class="ltn__breadcrumb-list">
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
-                                    <li>About Us</li>
+                                    <li>Cart</li>
                                 </ul>
                             </div>
                         </div>
@@ -459,46 +306,109 @@
         </div>
         <!-- BREADCRUMB AREA END -->
 
-        <!-- FEATURE AREA START ( Feature - 3) -->
-        <div class="ltn__feature-area">
+        <!-- SHOPING CART AREA START -->
+        <div class="liton__shoping-cart-area mb-100">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="ltn__feature-item-box-wrap ltn__feature-item-box-wrap-2 ltn__border section-bg-6">
-                            <div class="ltn__feature-item ltn__feature-item-8">
-                                <div class="ltn__feature-icon">
-                                    <img src="img/icons/svg/8-trolley.svg" alt="#">
-                                </div>
-                                <div class="ltn__feature-info">
-                                    <h4>Free shipping</h4>
-                                    <p>On all orders over $49.00</p>
-                                </div>
+                        <div class="shoping-cart-inner">
+                            <div class="shoping-cart-table table-responsive">
+                                <table class="table">
+                                    <!-- <thead>
+                                    <th class="cart-product-remove">Remove</th>
+                                    <th class="cart-product-image">Image</th>
+                                    <th class="cart-product-info">Product</th>
+                                    <th class="cart-product-price">Price</th>
+                                    <th class="cart-product-quantity">Quantity</th>
+                                    <th class="cart-product-subtotal">Subtotal</th>
+                                </thead> -->
+                                    <tbody>
+                                        <tr>
+                                            <td class="cart-product-remove">x</td>
+                                            <td class="cart-product-image">
+                                                <a href="product-details.html"><img src="img/product/1.png" alt="#"></a>
+                                            </td>
+                                            <td class="cart-product-info">
+                                                <h4><a href="product-details.html">Brake Conversion Kit</a></h4>
+                                            </td>
+                                            <td class="cart-product-price">$149.00</td>
+                                            <td class="cart-product-quantity">
+                                                <div class="cart-plus-minus">
+                                                    <input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
+                                                </div>
+                                            </td>
+                                            <td class="cart-product-subtotal">$298.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cart-product-remove">x</td>
+                                            <td class="cart-product-image">
+                                                <a href="product-details.html"><img src="img/product/2.png" alt="#"></a>
+                                            </td>
+                                            <td class="cart-product-info">
+                                                <h4><a href="product-details.html">OE Replica Wheels</a></h4>
+                                            </td>
+                                            <td class="cart-product-price">$85.00</td>
+                                            <td class="cart-product-quantity">
+                                                <div class="cart-plus-minus">
+                                                    <input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
+                                                </div>
+                                            </td>
+                                            <td class="cart-product-subtotal">$170.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cart-product-remove">x</td>
+                                            <td class="cart-product-image">
+                                                <a href="product-details.html"><img src="img/product/3.png" alt="#"></a>
+                                            </td>
+                                            <td class="cart-product-info">
+                                                <h4><a href="product-details.html">Wheel Bearing Retainer</a></h4>
+                                            </td>
+                                            <td class="cart-product-price">$75.00</td>
+                                            <td class="cart-product-quantity">
+                                                <div class="cart-plus-minus">
+                                                    <input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
+                                                </div>
+                                            </td>
+                                            <td class="cart-product-subtotal">$150.00</td>
+                                        </tr>
+                                        <tr class="cart-coupon-row">
+                                            <td colspan="6">
+                                                <div class="cart-coupon">
+                                                    <input type="text" name="cart-coupon" placeholder="Coupon code">
+                                                    <button type="submit" class="btn theme-btn-2 btn-effect-2">Apply Coupon</button>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <button type="submit" class="btn theme-btn-2 btn-effect-2-- disabled">Update Cart</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                            <div class="ltn__feature-item ltn__feature-item-8">
-                                <div class="ltn__feature-icon">
-                                    <img src="img/icons/svg/9-money.svg" alt="#">
-                                </div>
-                                <div class="ltn__feature-info">
-                                    <h4>15 days returns</h4>
-                                    <p>Moneyback guarantee</p>
-                                </div>
-                            </div>
-                            <div class="ltn__feature-item ltn__feature-item-8">
-                                <div class="ltn__feature-icon">
-                                    <img src="img/icons/svg/10-credit-card.svg" alt="#">
-                                </div>
-                                <div class="ltn__feature-info">
-                                    <h4>Secure checkout</h4>
-                                    <p>Protected by Paypal</p>
-                                </div>
-                            </div>
-                            <div class="ltn__feature-item ltn__feature-item-8">
-                                <div class="ltn__feature-icon">
-                                    <img src="img/icons/svg/11-gift-card.svg" alt="#">
-                                </div>
-                                <div class="ltn__feature-info">
-                                    <h4>Offer & gift here</h4>
-                                    <p>On all orders over</p>
+                            <div class="shoping-cart-total mt-50">
+                                <h4>Cart Totals</h4>
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Cart Subtotal</td>
+                                            <td>$618.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shipping and Handing</td>
+                                            <td>$15.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Vat</td>
+                                            <td>$00.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Order Total</strong></td>
+                                            <td><strong>$633.00</strong></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="btn-wrapper text-right">
+                                    <a href="checkout.html" class="theme-btn-1 btn btn-effect-1">Proceed to checkout</a>
                                 </div>
                             </div>
                         </div>
@@ -506,262 +416,7 @@
                 </div>
             </div>
         </div>
-        <!-- FEATURE AREA END -->
-
-        <!-- ABOUT US AREA START -->
-        <div class="ltn__about-us-area pt-90 pb-70">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 align-self-center">
-                        <div class="about-us-info-wrap">
-                            <h2 class="mb-30 font-weight-6">Fiama - Powerful Theme for Shop</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost exercit ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
-                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ABOUT US AREA END -->
-
-        <!-- VIDEO AREA START -->
-        <div class="ltn__video-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="ltn__video-bg-img ltn__video-popup-height-5 section-bg-3--- bg-image pt-170 pb-150" data-bs-bg="img/bg/1.jpg" id="ltnr_video">
-                            <a class="ltn__video-icon-1" href="https://www.youtube.com/embed/J6oDTn_ENto?autoplay=1&showinfo=0" data-rel="lightcase:myCollection">
-                            <i class="icon-control-play"></i>
-                        </a>
-                            <br>
-                            <div class="ltn__video-info d-none">
-                                <h1 class="white-color">APPS AWESOME VIDEO</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- VIDEO AREA END -->
-
-        <!-- TESTIMONIAL AREA START -->
-        <div class="testimonial-area pt-95 pb-80">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title-area text-center">
-                            <h1 class="section-title section-title-border">client says</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2 col-md-12  col-sm-12 col-xs-12">
-                        <!-- Testimonial Wrap -->
-                        <div class="ltn__testimonial-7-wrap text-center">
-                            <div class="ltn__testimonial-7-image-slider">
-                                <div class="testimonial-image">
-                                    <img src="img/team/11.jpg" alt="Images of Testimonial" />
-                                </div>
-                                <div class="testimonial-image">
-                                    <img src="img/team/12.jpg" alt="Images of Testimonial" />
-                                </div>
-                                <div class="testimonial-image">
-                                    <img src="img/team/13.jpg" alt="Images of Testimonial" />
-                                </div>
-                                <div class="testimonial-image">
-                                    <img src="img/team/14.jpg" alt="Images of Testimonial" />
-                                </div>
-                            </div>
-                            <!--End Testimonial Wrap -->
-                            <!--Start Testimonial Text Slider -->
-                            <div class="ltn__testimonial-7-text-slider slick-arrow-1">
-                                <div class="testimonial-info">
-                                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm consequat.</p>
-                                    <h5>Kelian Anderson</h5>
-                                    <h6>Our Client</h6>
-                                </div>
-                                <div class="testimonial-info">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                    <h5>Kelian Anderson</h5>
-                                    <h6>Our Client</h6>
-                                </div>
-                                <div class="testimonial-info">
-                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                        magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                    <h5>Kelian Anderson</h5>
-                                    <h6>Our Client</h6>
-                                </div>
-                                <div class="testimonial-info">
-                                    <p>voluptate velit esse cillum dolore eu fugiat nulla pariatur Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .</p>
-                                    <h5>Kelian Anderson</h5>
-                                    <h6>Our Client</h6>
-                                </div>
-                            </div>
-                            <!--End Testimonial Text Slider -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- TESTIMONIAL AREA END -->
-
-        <!-- BANNER AREA START -->
-        <div class="ltn__banner-area ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="ltn__banner-item">
-                            <div class="ltn__banner-img">
-                                <a href="shop.html"><img src="img/banner/10.jpg" alt="Banner Image"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- BANNER AREA END -->
-
-        <!-- BLOG AREA START (blog-3) -->
-        <div class="ltn__blog-area  pt-60 pb-30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title-area text-center">
-                            <h1 class="section-title section-title-border">latest news</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="row  ltn__blog-slider-one-active slick-arrow-1">
-                    <!-- Blog Item -->
-                    <div class="col-lg-12">
-                        <div class="ltn__blog-item">
-                            <div class="ltn__blog-img">
-                                <a href="blog-details.html"><img src="img/blog/1.jpg" alt="#"></a>
-                            </div>
-                            <div class="ltn__blog-brief">
-                                <div class="ltn__blog-meta">
-                                    <ul>
-                                        <li class="ltn__blog-author d-none">
-                                            <a href="#">by: Admin</a>
-                                        </li>
-                                        <li>
-                                            <span> Nov 18, 2020</span>
-                                        </li>
-                                        <li class="ltn__blog-comment">
-                                            <a href="#"><i class="icon-speech"></i> 2</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <h3 class="ltn__blog-title blog-title-line"><a href="blog-details.html">Lorem ipsum dolor sit amet con adipisicing elit sed </a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Blog Item -->
-                    <div class="col-lg-12">
-                        <div class="ltn__blog-item">
-                            <div class="ltn__blog-img">
-                                <a href="blog-details.html"><img src="img/blog/2.jpg" alt="#"></a>
-                            </div>
-                            <div class="ltn__blog-brief">
-                                <div class="ltn__blog-meta">
-                                    <ul>
-                                        <li class="ltn__blog-author d-none">
-                                            <a href="#">by: Admin</a>
-                                        </li>
-                                        <li>
-                                            <span> Nov 18, 2020</span>
-                                        </li>
-                                        <li class="ltn__blog-comment">
-                                            <a href="#"><i class="icon-speech"></i> 2</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <h3 class="ltn__blog-title blog-title-line"><a href="blog-details.html">Lorem ipsum dolor sit amet con adipisicing elit sed </a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Blog Item -->
-                    <div class="col-lg-12">
-                        <div class="ltn__blog-item">
-                            <div class="ltn__blog-img">
-                                <a href="blog-details.html"><img src="img/blog/3.jpg" alt="#"></a>
-                            </div>
-                            <div class="ltn__blog-brief">
-                                <div class="ltn__blog-meta">
-                                    <ul>
-                                        <li class="ltn__blog-author d-none">
-                                            <a href="#">by: Admin</a>
-                                        </li>
-                                        <li>
-                                            <span> Nov 18, 2020</span>
-                                        </li>
-                                        <li class="ltn__blog-comment">
-                                            <a href="#"><i class="icon-speech"></i> 2</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <h3 class="ltn__blog-title blog-title-line"><a href="blog-details.html">Lorem ipsum dolor sit amet con adipisicing elit sed </a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Blog Item -->
-                    <div class="col-lg-12">
-                        <div class="ltn__blog-item">
-                            <div class="ltn__blog-img">
-                                <a href="blog-details.html"><img src="img/blog/4.jpg" alt="#"></a>
-                            </div>
-                            <div class="ltn__blog-brief">
-                                <div class="ltn__blog-meta">
-                                    <ul>
-                                        <li class="ltn__blog-author d-none">
-                                            <a href="#">by: Admin</a>
-                                        </li>
-                                        <li>
-                                            <span> Nov 18, 2020</span>
-                                        </li>
-                                        <li class="ltn__blog-comment">
-                                            <a href="#"><i class="icon-speech"></i> 2</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <h3 class="ltn__blog-title blog-title-line"><a href="blog-details.html">Lorem ipsum dolor sit amet con adipisicing elit sed </a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Blog Item -->
-                    <div class="col-lg-12">
-                        <div class="ltn__blog-item">
-                            <div class="ltn__blog-img">
-                                <a href="blog-details.html"><img src="img/blog/5.jpg" alt="#"></a>
-                            </div>
-                            <div class="ltn__blog-brief">
-                                <div class="ltn__blog-meta">
-                                    <ul>
-                                        <li class="ltn__blog-author d-none">
-                                            <a href="#">by: Admin</a>
-                                        </li>
-                                        <li>
-                                            <span> Nov 18, 2020</span>
-                                        </li>
-                                        <li class="ltn__blog-comment">
-                                            <a href="#"><i class="icon-speech"></i> 2</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <h3 class="ltn__blog-title blog-title-line"><a href="blog-details.html">Lorem ipsum dolor sit amet con adipisicing elit sed </a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--  -->
-                </div>
-            </div>
-        </div>
-        <!-- BLOG AREA END -->
+        <!-- SHOPING CART AREA END -->
 
         <!-- BRAND LOGO AREA START -->
         <div class="ltn__brand-logo-area  ltn__brand-logo-1 section-bg-1 pt-35 pb-35 plr--5">
@@ -958,17 +613,6 @@
 
     </div>
     <!-- Body main wrapper end -->
-
-    <!-- preloader area start -->
-    <div class="preloader d-none" id="preloader">
-        <div class="preloader-inner">
-            <div class="spinner">
-                <div class="dot1"></div>
-                <div class="dot2"></div>
-            </div>
-        </div>
-    </div>
-    <!-- preloader area end -->
 
     <!-- All JS Plugins -->
     <script src="js/plugins.js"></script>
